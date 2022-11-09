@@ -1,5 +1,8 @@
 body {
   background-color: beige;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
 }
 h1 {
   text-align: center;
@@ -30,13 +33,12 @@ button {
 }
 .search-bar {
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
-.container {
-  border-radius: 100px;
-  padding: 100px;
-  margin: 0 auto;
-  width: 100%;
+main {
+  border-radius: 4rem;
+  padding: 5rem;
+  margin: auto;
   background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   text-align: center;
