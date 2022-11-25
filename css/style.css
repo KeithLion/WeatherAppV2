@@ -1,15 +1,8 @@
 body {
-  background-color: beige;
+  background-color: #0388A6;
   display: grid;
   place-content: center;
   min-height: 100vh;
-}
-h1 {
-  text-align: center;
-}
-h2 {
-  text-align: center;
-  border-radius: 30px;
 }
 p {
   text-align: center;
@@ -20,8 +13,11 @@ li {
 }
 .temp-panel {
   border-radius: 10px;
-  background-color: aqua;
   margin: 0px;
+}
+.forcast{
+  display: flex;
+  justify-content: space-evenly;
 }
 input {
   display: block;
@@ -33,12 +29,12 @@ button {
 }
 .search-bar {
   display: block;
-  margin: auto;
+  margin-bottom: 1rem;
 }
 main {
-  border-radius: 4rem;
-  padding: 5rem;
-  margin: auto;
+  border-radius: 2rem;
+  padding: 3rem 5rem 2rem 5rem;
+  
   background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   text-align: center;
